@@ -39,7 +39,7 @@ a {
 border-bottom: 1px solid #e7e9fc;
 }
 
-.header-conteiner{
+.header-container{
 display: flex;
 align-items: center;
 }
@@ -80,7 +80,7 @@ margin-right: 76px;
    color:#2E2F42;
 }
 
-.footer-logo .logo-part{
+.logo-part{
     color: #F4F4FD;
 }
 
@@ -120,6 +120,13 @@ margin-right: 76px;
 .section-one{
     background-color: #2E2F42;
 }
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .page-title{
     font-size: 56px;
     line-height: 1.07;
@@ -127,7 +134,11 @@ margin-right: 76px;
     text-align: center;
     color:#FFFFFF;
     background-color: #2E2F42;
-
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .title-button{
@@ -137,6 +148,16 @@ margin-right: 76px;
     cursor: pointer;
     color: #FFFFFF;
     background: #4D5AE5;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title-button:hover,
@@ -153,9 +174,30 @@ margin-right: 76px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
-.directions-list
-.directions-item
+
+.directions-list{
+display: flex;
+    gap: 24px;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.directions-item{
+        width: calc((100% - 3 * 24px) / 4);
+            list-style: none;
+}
 
 .directions-item-title{
     font-weight: 500;
@@ -163,6 +205,7 @@ margin-right: 76px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .directions-item-text{
@@ -184,15 +227,26 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .specialists-list{
     background-color: #FFFFFF;
+    display: flex;
+        gap: 24px;
 }
 
 .specialists-list-item{
     background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+            border-radius: 0px 0px 4px 4px;
+
 }
+
+.list-container{
+    padding: 32px 0;
+}
+
 .specialists-item-name{
     font-weight: 500;
     font-size: 20px;
@@ -200,6 +254,8 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #FFFFFF;
+    text-align: center;
+        margin-bottom: 8px;
 }
 
 .specialists-name-text{
@@ -208,6 +264,7 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 /*четверта секція*/
@@ -220,16 +277,38 @@ margin-right: 76px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+            margin-bottom: 72px;
 }
 
-.communication-link
-.communication-item
+.communication-link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.communication-item{
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+        width: calc((100% - 48px)/3);
+}
+
+.fourth-section-container{
+        padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+}
+
 .communication-item-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .communication-item-text{
@@ -241,10 +320,25 @@ margin-right: 76px;
 
 .page-footer{
     background-color:#2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo{
+display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
+        max-width: 264px;
 }
