@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+.img{
+    display: block;
+}
+
 /*commen*/
 
 .conteiner{
@@ -119,6 +123,7 @@ margin-right: 76px;
 
 .section-one{
     background-color: #2E2F42;
+    padding: 188px 0
 }
 
 .container{
@@ -166,7 +171,9 @@ margin-right: 76px;
 }
 
 /*друга секція*/
-.directions
+.directions{
+    padding: 120px 0;
+}
 
 .directions-title {
     font-weight: 500;
@@ -218,6 +225,7 @@ display: flex;
 /*третя секція*/
 .specialists{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .specialists-title{
@@ -268,7 +276,10 @@ display: flex;
 }
 
 /*четверта секція*/
-.communication
+.communication{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .communication-title{
     font-size: 36px;
