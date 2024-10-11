@@ -236,9 +236,8 @@ display: flex;
 }
 
 .specialists-list{
-    background-color: #FFFFFF;
     display: flex;
-        gap: 24px;
+    gap: 24px;
 }
 
 .specialists-list-item{
